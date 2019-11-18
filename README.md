@@ -44,13 +44,43 @@ except Exception as e:
   print("There was a problem: ", e)
 ```
 
+### NEW! 
+#### added flag to set or disable cache 
+```py
+# __version__1.1.0
+
+from newspaperzw.Provider import Providers
+from newspaperzw.news import News
+
+'''
+	get a summary of the article from each article through the `summary=True` flag
+	avoid cache memory by disabling it through the `cache=False` flag
+	if cache is True, it will not return news previously downloaded on previous runs
+'''
+
+try:
+  # get data from news site by name, default = `herald`
+  api       = News(provider='techzim', summary=True, cache=False)
+  news_data =  api.paper()
+  
+  # return dict with all news data, best to use `prettyprinter`
+  print(new_data)
+  
+except Exception as e:
+  print("There was a problem: ", e)
+```
+## result with summary & keywords attr
+![summary](https://github.com/DonnC/zim-newspaper/blob/master/example/summary.png)
+
 ## TODO
-- sometimes news articles are not downloaded after multiple runs on a news source, because of caching
-- set flag that enables or disables `cache`
 - library scrapes all available data that it encounters, need to narrow it down by date/month/year
 - start from `today` up to any news obtained from `last year`
 - improve speed
+- disble logging
 - exception handling
+- date published
+
+- log files need to be deleted in case they occupy signficant space on disk
 
 ### results
 ![Result 1](https://github.com/DonnC/zim-newspaper/blob/master/example/result_1.png)
