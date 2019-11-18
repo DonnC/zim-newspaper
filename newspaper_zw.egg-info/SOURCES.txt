@@ -1,0 +1,10 @@
+README.md
+setup.py
+newspaper_zw.egg-info/PKG-INFO
+newspaper_zw.egg-info/SOURCES.txt
+newspaper_zw.egg-info/dependency_links.txt
+newspaper_zw.egg-info/requires.txt
+newspaper_zw.egg-info/top_level.txt
+newspaperzw/Provider.py
+newspaperzw/__init__.py
+newspaperzw/news.py

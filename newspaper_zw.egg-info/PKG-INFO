@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: newspaper-zw
+Version: 1.0.0
+Summary: get newspaper from online leading Zimbabwe content providers
+Home-page: https://github.com/DonnC/zim-newspaper
+Author: Donald Chinhuru
+Author-email: donychinhuru@gmail.com
+License: MIT
+Description: # zim-newspaper
+        library to get newspaper, news from zim leading news providers
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
