@@ -25,4 +25,6 @@ except Exception as e:
 ```
 
 ### results
-[Result 1]()
+![Result 1](https://github.com/DonnC/zim-newspaper/blob/master/example/result_1.png)
+![Result 2](https://github.com/DonnC/zim-newspaper/blob/master/example/result_2.png)
+![Result 1](https://github.com/DonnC/zim-newspaper/blob/master/example/log_shot.png)
