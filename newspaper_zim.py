@@ -11,8 +11,8 @@ from prettyprinter import pprint
 p = Providers()
 
 # to get `summary` through inbuilt nlp algorithm, flag `summary=True`, requires `nltk` module
-source = 'chronicle'
-api = News(provider=source, summary=False)
+source = 'herald'
+api = News(provider=source, summary=True)
 
 try:
     print(f"[INFO] Getting news data from {p.getUrl(source)}..")

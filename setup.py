@@ -10,7 +10,7 @@ REQUIRED = [
 
 setuptools.setup(
     name="newspaper-zw",
-    version="1.0.0",
+    version="1.1.0",
     author="Donald Chinhuru",
     author_email="donychinhuru@gmail.com",
     description="get newspaper from online leading Zimbabwe content providers",

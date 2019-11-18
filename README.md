@@ -69,20 +69,12 @@ try:
 except Exception as e:
   print("There was a problem: ", e)
 ```
-## result with summary & keywords attr
-![summary](https://github.com/DonnC/zim-newspaper/blob/master/example/summary.png)
 
 ## TODO
 - library scrapes all available data that it encounters, need to narrow it down by date/month/year
 - start from `today` up to any news obtained from `last year`
 - improve speed
 - disble logging
-- exception handling
 - date published
 
 - log files need to be deleted in case they occupy signficant space on disk
-
-### results
-![Result 1](https://github.com/DonnC/zim-newspaper/blob/master/example/result_1.png)
-![Result 2](https://github.com/DonnC/zim-newspaper/blob/master/example/result_2.png)
-![Result 1](https://github.com/DonnC/zim-newspaper/blob/master/example/log_shot.png)
