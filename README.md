@@ -1,6 +1,11 @@
 # zim-newspaper
 library to get newspaper, news from zim leading news providers
 
+## Installation
+```sh
+$ pip install newspaper-zw
+```
+
 ### Example
 ``` py
 from newspaperzw.Provider import Providers
